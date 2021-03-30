@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-btn-wrap {
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(240deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    padding: 3px;
+    border-radius: 5px;
+
+    animation: rainbow 3s linear infinite;
+}
+
+.content-btn {
+    background: #222;
+    color: white;
+    padding: 2rem;
+}
+
+@keyframes rainbow {
+
+    to {
+        background-position: 250px;
+    }
+
+}
