@@ -20,7 +20,7 @@ header {
 }
 
 .content-btn-wrap {
-    max-width: 250px;
+    width: 10rem;
     padding: 1rem;
     position: relative;
     background: linear-gradient(240deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
@@ -39,7 +39,7 @@ header {
 @keyframes rainbow {
 
     to {
-        background-position: 250px;
+        background-position: 10rem;
     }
 
 }
